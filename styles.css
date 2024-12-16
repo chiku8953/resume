@@ -10,7 +10,7 @@ body {
   align-items: center;
   height: 100%;
   color :white;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 .music-player {
@@ -88,7 +88,7 @@ button:hover {
   transition: background 0.3s;
   background-color :black;
   color :white;
-  width :310px;
+  width :80%;
   margin-left :30px;
   margin-top :9px;
   text-align : left;
