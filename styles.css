@@ -8,18 +8,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  man-height: 100vh;
   color :white;
-  overflow-x: hidden;
 }
 
 .music-player {
   width: 100%;
+max-width :1200px;
+margin :0 auto ;
   background: black;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
+html , body{
+  overflow-x :hidden ;
+  width :100%;
+  }
 
 /* Song Image */
 .song-image img {
